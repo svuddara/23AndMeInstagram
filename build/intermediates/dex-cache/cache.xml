@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/svuddara/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.8.1/bc373fb6bc7bca3035041b924f158fd2b946ee8d/butterknife-annotations-8.8.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bc373fb6bc7bca3035041b924f158fd2b946ee8d">
+        <dex dex="/Users/svuddara/Downloads/InstagramApp/app/build/intermediates/pre-dexed/debug/butterknife-annotations-8.8.1_4d524228913b714c26ca4fdecb375d3c657ff94f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/svuddara/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.0/e414a4cb28434e25c4f6aa71426eb20cf4874ae9/common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
+        <dex dex="/Users/svuddara/Downloads/InstagramApp/app/build/intermediates/pre-dexed/debug/common-1.0.0_3c9a8283c191c249cee688707ad8c3ea35624780.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/svuddara/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/svuddara/Downloads/InstagramApp/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_6a7ffb05ef65138ad52a13e342956b81e5233d54.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/svuddara/.android/build-cache/41fe88955e4f6f0c59759b37aea149bf39910a00/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
+        <dex dex="/Users/svuddara/Downloads/InstagramApp/app/build/intermediates/pre-dexed/debug/classes_4280c1b7e41184e1a20b2fa8b93f3fb3cc412935.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/svuddara/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/Users/svuddara/Downloads/InstagramApp/app/build/intermediates/pre-dexed/debug/gson-2.7_71f8cbe683152ec72072fb5e917d4768cb8519a8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/svuddara/.android/build-cache/a7a6c2b349495264e28454084be04dd022617c9b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a37fc31c5ceeaa4532a37358add1b189d8db4af1">
+        <dex dex="/Users/svuddara/Downloads/InstagramApp/app/build/intermediates/pre-dexed/debug/classes_5b138e4f959f13e2025e1ce03cfb14c6ad2d0e44.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/svuddara/.android/build-cache/fba16154384bdf22f7a16bee9348a1659bfc740b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="40392f30a601db5675cdf18192aab013d6fee6ec">
+        <dex dex="/Users/svuddara/Downloads/InstagramApp/app/build/intermediates/pre-dexed/debug/classes_193f4d0df5034e23bbbbfe71c5db65ea83fde481.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/svuddara/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="/Users/svuddara/Downloads/InstagramApp/app/build/intermediates/pre-dexed/debug/common-1.0.0_1bf01cf1f36a8a549725a70e1f6a480eb1933524.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/svuddara/.android/build-cache/8e4ffcf0ef7b14fc53939c8d86e5d9a69857beac/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8375c7bb9ff7fb396f21f44b450a7815edcc1fea">
+        <dex dex="/Users/svuddara/Downloads/InstagramApp/app/build/intermediates/pre-dexed/debug/classes_49ccf99984a03c234fa12ea4f42f2089ac83556d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/svuddara/.android/build-cache/8ff799f91af27023a9de6ae62b32d739e2fa5234/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="508f50705b4fde51a16259f29c854201a3044516">
+        <dex dex="/Users/svuddara/Downloads/InstagramApp/app/build/intermediates/pre-dexed/debug/classes_161bd5e127beaa217e9e16e5e3ec9a65453ad209.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/svuddara/.android/build-cache/32576a70b308ea2a24e37780f00cc7b9f883fd77/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="92ef3de12290396c5f6611b96bdcd8fc8e4aa74c">
+        <dex dex="/Users/svuddara/Downloads/InstagramApp/app/build/intermediates/pre-dexed/debug/classes_03ff373c89765d93bf7afca54e9398777fe9272c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/svuddara/.android/build-cache/984808948115f43613eea8333e257784b76a6187/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6a2bcb61342d09fe9acf55c9daf63961c8866cc0">
+        <dex dex="/Users/svuddara/Downloads/InstagramApp/app/build/intermediates/pre-dexed/debug/classes_c0de4ed23bff2096a6f7a9d4e5288314a1910ab0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/svuddara/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/svuddara/Downloads/InstagramApp/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_73c3b0765541a92ab9d1982962b7dae36be2f496.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/svuddara/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="/Users/svuddara/Downloads/InstagramApp/app/build/intermediates/pre-dexed/debug/converter-gson-2.1.0_5d655d5515151c45073f6f47e560c7e6a0a19b80.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/svuddara/.android/build-cache/51ca953a2addd86284995cc2175d59026e2f067c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b2f7dddedcdb3facde33de103dcc32b10c43b92e">
+        <dex dex="/Users/svuddara/Downloads/InstagramApp/app/build/intermediates/pre-dexed/debug/classes_a56606ac6b0dbc33b4d008db04005f488758f7aa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/svuddara/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="/Users/svuddara/Downloads/InstagramApp/app/build/intermediates/pre-dexed/debug/okio-1.8.0_0e1b55e60e25a61eede68b7e0f4bf9989196f75a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/svuddara/.android/build-cache/5c35c706d71156f11d48403c6d2cb23f0e8a90db/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6f4138a4e065826cb044d49faea4cfd7191773d1">
+        <dex dex="/Users/svuddara/Downloads/InstagramApp/app/build/intermediates/pre-dexed/debug/classes_b90112f37b71392ea5451ba74978a81703435030.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/svuddara/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.0/2b802460eea20f8f2ad9c08c74e0f14718e88aa9/okhttp-3.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="/Users/svuddara/Downloads/InstagramApp/app/build/intermediates/pre-dexed/debug/okhttp-3.3.0_547bbf92f6a31eb177e17807d9e0602bcb4e4d05.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/svuddara/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/Users/svuddara/Downloads/InstagramApp/app/build/intermediates/pre-dexed/debug/retrofit-2.1.0_bb5c98d2a9fcdeebbc8e4aab45d9ba1da49b819e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/svuddara/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.1.0/814258103cf26a15fcc26ecce35f5b7d24b73f8/support-annotations-26.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
+        <dex dex="/Users/svuddara/Downloads/InstagramApp/app/build/intermediates/pre-dexed/debug/support-annotations-26.1.0_38970ac898cffbb495382b6652722419445ba761.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/svuddara/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.7.2/d7e275ba05aa380ca254f72d0c0ffebaedc3adcf/jsoup-1.7.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7e275ba05aa380ca254f72d0c0ffebaedc3adcf">
+        <dex dex="/Users/svuddara/Downloads/InstagramApp/app/build/intermediates/pre-dexed/debug/jsoup-1.7.2_b79c7f1f838cf37bc1f14bf1a249bf6ceac83c45.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/svuddara/.android/build-cache/6cfe9065167281b99612a966708faa0c264b0469/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f428e2fbc9ed0b297e3a3f420e51e6982f66822d">
+        <dex dex="/Users/svuddara/Downloads/InstagramApp/app/build/intermediates/pre-dexed/debug/classes_b417b7d93d1ed45a225fbaf659cfb320db1907fe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/svuddara/.android/build-cache/ec81c27d055936add7e5c1bc8fc2f990cd7ee19b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
+        <dex dex="/Users/svuddara/Downloads/InstagramApp/app/build/intermediates/pre-dexed/debug/classes_278284eaaa2e5742a1f781f50c6a2f5de5ff9746.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/svuddara/.android/build-cache/ee367b6ccc598bb63e84edb4752ffe10b33a5bf2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/svuddara/Downloads/InstagramApp/app/build/intermediates/pre-dexed/debug/classes_59c0f1ac08a8be9042242f70fd97ce10997dea77.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/svuddara/.android/build-cache/5fbad99ae056089bf11be868fdba1b6af981c4bd/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="/Users/svuddara/Downloads/InstagramApp/app/build/intermediates/pre-dexed/debug/classes_b14b3a0bba62b1e34dace0c81dec408f8a89b448.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/svuddara/.android/build-cache/3b1ea5e1b1857c55f77da9e723c99da650f3c683/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/svuddara/Downloads/InstagramApp/app/build/intermediates/pre-dexed/debug/classes_30401719a91d8570f07f3f05514b70e889522a12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/svuddara/.android/build-cache/7662f2173f75245903130d58f78b1ea84533fc41/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
+        <dex dex="/Users/svuddara/Downloads/InstagramApp/app/build/intermediates/pre-dexed/debug/classes_ac32f18b31dede309aa40b54cf4a716d549a2142.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/svuddara/.android/build-cache/a097ccf82901b878592bcbc22f8d932a5d412b07/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="58b12bdb21a84f22e0dc3b047aeceb0a546b1b44">
+        <dex dex="/Users/svuddara/Downloads/InstagramApp/app/build/intermediates/pre-dexed/debug/classes_63e22877bac9d2e372b314940fe446f8477dfa7e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/svuddara/.android/build-cache/ea28f14fd14bb029b455f5a16cffa91b9ed86511/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
+        <dex dex="/Users/svuddara/Downloads/InstagramApp/app/build/intermediates/pre-dexed/debug/classes_48756a9e93ca8cb792f8a7255a0e22b6fb9459d6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/svuddara/.android/build-cache/d947e00b0676456adf868ef0455d9feb92e4c158/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b12cd9c87c3dfb012a911b6e38d2444ed0a65e1f">
+        <dex dex="/Users/svuddara/Downloads/InstagramApp/app/build/intermediates/pre-dexed/debug/classes_a387bf805bb8cb3cc0033dfa0a8598f7b3ec8f44.jar" />
+    </item>
+
+</items>
