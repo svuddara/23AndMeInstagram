@@ -76,7 +76,7 @@ public class PostsListActivity extends AppCompatActivity {
     public void updateUserLikeStatus(final PostDAO postDAO, final PostAdapter.PhotoViewHolder holder){
         String accessToken = SharedPreferencesUtils.getAccessTokenFromSharedPreferences(context, OAuthConstants.ACCESS_TOKEN);
         final InstagramViewModel instagramViewModel = ViewModelProviders.of(this).get(InstagramViewModel.class);
-        LiveData<InstagramLikeDAO> likeDAOLiveData = instagramViewModel.postUserLike(accessToken, postDAO.getId());
+        LiveData<InstagramLikeDAO> likeDAOLiveData = instagramViewModel.changeLikeStatus(accessToken, postDAO.getId(),!postDAO.isHasUserLiked());
         likeDAOLiveData.observe(this, new Observer<InstagramLikeDAO>() {
             @Override
             public void onChanged(@Nullable InstagramLikeDAO instagramLikeDAO) {

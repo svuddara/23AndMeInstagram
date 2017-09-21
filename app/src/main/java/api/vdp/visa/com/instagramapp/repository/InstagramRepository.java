@@ -13,5 +13,5 @@ public interface InstagramRepository {
 
      public LiveData<InstagramUserPostsDAO> getUserImages(String accessToken);
 
-     public LiveData<InstagramLikeDAO> postLikes(String accessToken, String mediaId);
+     public LiveData<InstagramLikeDAO> changeLikesStatus(String accessToken, String mediaId,boolean isLike);
 }

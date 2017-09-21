@@ -5,6 +5,7 @@ import java.util.Map;
 import api.vdp.visa.com.instagramapp.repository.vo.InstagramImagesResponse;
 import api.vdp.visa.com.instagramapp.repository.vo.InstagramLikeResponse;
 import retrofit2.Call;
+import retrofit2.http.DELETE;
 import retrofit2.http.GET;
 import retrofit2.http.POST;
 import retrofit2.http.Path;
@@ -23,4 +24,7 @@ public interface InstagramApiService {
 
     @POST("/v1/media/{media-id}/likes")
     Call<InstagramLikeResponse> postLikes(@Path("media-id") String mediaId, @QueryMap Map<String,String> queryParam);
+
+    @DELETE("/v1/media/{media-id}/likes")
+    Call<InstagramLikeResponse> deleteLike(@Path("media-id") String mediaId, @QueryMap Map<String,String> queryParam);
 }

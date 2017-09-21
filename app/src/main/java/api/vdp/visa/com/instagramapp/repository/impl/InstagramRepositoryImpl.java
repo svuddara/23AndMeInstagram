@@ -67,26 +67,35 @@ public class InstagramRepositoryImpl implements InstagramRepository {
 
 
     @Override
-    public LiveData<InstagramLikeDAO> postLikes(String accessToken, String mediaId) {
-
-        final MutableLiveData<InstagramLikeDAO> postLikesLiveData = new MutableLiveData<>();
-        Map<String, String> queryParamsMap = buildQueryMap(accessToken);
-        Call<InstagramLikeResponse> postLikesResponse = instagramApiService.postLikes(mediaId,queryParamsMap);
-        postLikesResponse.enqueue(new Callback<InstagramLikeResponse>() {
+    public LiveData<InstagramLikeDAO> changeLikesStatus(String accessToken, String mediaId,boolean isLike) {
+        final MutableLiveData<InstagramLikeDAO> likeStatusLiveData = new MutableLiveData<>();
+        Call<InstagramLikeResponse> likeStatusChangeResponse =  getLikeStatusResponse(accessToken,mediaId,isLike);
+        likeStatusChangeResponse.enqueue(new Callback<InstagramLikeResponse>() {
             @Override
             public void onResponse(Call<InstagramLikeResponse> call, Response<InstagramLikeResponse> response) {
                 InstagramLikeResponse likeResponse = response.body();
                 InstagramLikeDAO likeDAO = buildInstagramLikeDAO(likeResponse);
-                postLikesLiveData.setValue(likeDAO);
+                likeStatusLiveData.setValue(likeDAO);
             }
 
             @Override
             public void onFailure(Call<InstagramLikeResponse> call, Throwable t) {
                 InstagramLikeDAO likeDAO = new InstagramLikeDAO.InstagramLikeDAOBuilder().error(t).build();
-                postLikesLiveData.setValue(likeDAO);
+                likeStatusLiveData.setValue(likeDAO);
             }
         });
-        return postLikesLiveData;
+        return likeStatusLiveData;
+    }
+
+    private Call<InstagramLikeResponse> getLikeStatusResponse(String accessToken,String mediaId,boolean isLike){
+        Call<InstagramLikeResponse> likeStatusResponse = null;
+        Map<String, String> queryParamsMap = buildQueryMap(accessToken);
+        if(isLike){
+            likeStatusResponse =  instagramApiService.postLikes(mediaId,queryParamsMap);
+        }else{
+            likeStatusResponse = instagramApiService.deleteLike(mediaId,queryParamsMap);
+        }
+        return likeStatusResponse;
     }
 
     private Map<String,String> buildQueryMap(String accessToken){
@@ -112,6 +121,7 @@ public class InstagramRepositoryImpl implements InstagramRepository {
         return new PostDAO.ImageDAOBuilder()
                 .id(imageDetail.getId())
                 .likeCount(imageDetail.getLikes().getCount())
+                .hasUserLiked(imageDetail.getUserHasLiked())
                 .imageUrl(imageDetail.getImages().getStandardResolution().getUrl())
                 .height(imageDetail.getImages().getStandardResolution().getHeight())
                 .width(imageDetail.getImages().getStandardResolution().getWidth())

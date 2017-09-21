@@ -42,9 +42,9 @@ public class InstagramViewModel extends ViewModel{
         return userImagesLiveData;
     }
 
-    public  MediatorLiveData<InstagramLikeDAO> postUserLike(String accessToken, String mediaId){
+    public  MediatorLiveData<InstagramLikeDAO> changeLikeStatus(String accessToken, String mediaId, boolean isLike){
         userLikesLiveData.addSource(
-                instagramRepository.postLikes(accessToken,mediaId),
+                instagramRepository.changeLikesStatus(accessToken,mediaId,isLike),
                 new Observer<InstagramLikeDAO>() {
                     @Override
                     public void onChanged(@Nullable InstagramLikeDAO instagramLikeDAO) {
