@@ -118,6 +118,10 @@ public class InstagramRepositoryImpl implements InstagramRepository {
     }
 
     private PostDAO getImageDAO(InstagramPost imageDetail){
+        String caption = "";
+        if(imageDetail.getCaption() != null){
+            caption = imageDetail.getCaption().getText();
+        }
         return new PostDAO.ImageDAOBuilder()
                 .id(imageDetail.getId())
                 .likeCount(imageDetail.getLikes().getCount())
@@ -125,7 +129,7 @@ public class InstagramRepositoryImpl implements InstagramRepository {
                 .imageUrl(imageDetail.getImages().getStandardResolution().getUrl())
                 .height(imageDetail.getImages().getStandardResolution().getHeight())
                 .width(imageDetail.getImages().getStandardResolution().getWidth())
-                .caption(imageDetail.getCaption().getText())
+                .caption(caption)
                 .createdTime(imageDetail.getCreatedTime())
                 .userName(imageDetail.getUser().getUsername())
                 .profilePicture(imageDetail.getUser().getProfilePicture())
